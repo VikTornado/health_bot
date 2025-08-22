@@ -1,124 +1,431 @@
 {
-  "шпинат": {
-    "effect": "зменшує дію варфарину",
-    "vitamin_k": "високий вміст вітаміну K",
-    "advice": "Якщо вживаєте шпинат регулярно — робіть це стабільно, без різких змін кількості."
+  "spinach": {
+    "name_en": "spinach",
+    "name_uk": "шпинат",
+    "effect": "decrease",
+    "vitamin_k": "very high (≈ 482 µg/100 g)",
+    "advice_uk": "Дуже багато вітаміну K — тримайте стабільне споживання.",
+    "advice_en": "Very high vitamin K — keep intake consistent.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Spinacia_oleracea_Spinazie_bloeiend.jpg",
+    "synonyms_en": ["spinach"],
+    "synonyms_uk": ["шпинат"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 23, "Protein": 2.9, "Fat": 0.4, "Carbs": 3.6, "VitaminK": 482 }
   },
-  "броколі": {
-    "effect": "зменшує дію варфарину",
-    "vitamin_k": "високий вміст вітаміну K",
-    "advice": "Тримайте стабільне споживання, контролюйте порції."
+  "broccoli": {
+    "name_en": "broccoli",
+    "name_uk": "броколі",
+    "effect": "decrease",
+    "vitamin_k": "high (≈ 101 µg/100 g)",
+    "advice_uk": "Вживайте невеликі стабільні порції.",
+    "advice_en": "Small, consistent portions recommended.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Broccoli_and_cross_section_edit.jpg",
+    "synonyms_en": ["broccoli"],
+    "synonyms_uk": ["броколі"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 34, "Protein": 2.8, "Fat": 0.4, "Carbs": 6.6, "VitaminK": 101 }
   },
-  "зелена цибуля": {
-    "effect": "може зменшувати дію варфарину",
-    "vitamin_k": "помірний вміст вітаміну K",
-    "advice": "Невеликі кількості зазвичай ок, головне — стабільність."
+  "brussels sprouts": {
+    "name_en": "brussels sprouts",
+    "name_uk": "брюссельська капуста",
+    "effect": "decrease",
+    "vitamin_k": "very high (≈ 177 µg/100 g)",
+    "advice_uk": "Слідкуйте за кількістю страв протягом тижня.",
+    "advice_en": "Monitor weekly portions; very high in vitamin K.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Brussels_sprouts_on_stalk.jpg",
+    "synonyms_en": ["brussels sprouts"],
+    "synonyms_uk": ["брюссельська капуста"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 43, "Protein": 3.4, "Fat": 0.3, "Carbs": 9.0, "VitaminK": 177 }
   },
-  "капуста квашена": {
-    "effect": "може зменшувати дію варфарину",
-    "vitamin_k": "помірний/високий (залежить від рецепту)",
-    "advice": "Слідкуйте за порціями, уникайте різких коливань."
+  "kale": {
+    "name_en": "kale",
+    "name_uk": "кейл (листова капуста)",
+    "effect": "decrease",
+    "vitamin_k": "very high (≈ 389 µg/100 g)",
+    "advice_uk": "Один з лідерів за K — уникайте різких стрибків у раціоні.",
+    "advice_en": "Among top vitamin K foods — avoid sudden intake changes.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Kale-leaves.jpg",
+    "synonyms_en": ["kale", "leaf cabbage"],
+    "synonyms_uk": ["кейл", "листова капуста"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 49, "Protein": 4.3, "Fat": 0.9, "Carbs": 8.8, "VitaminK": 389 }
   },
-  "журавлина": {
-    "effect": "може підсилювати дію варфарину",
-    "vitamin_k": "низький",
-    "advice": "Соки/великі обсяги можуть впливати; обережно з концентратами."
+  "chard": {
+    "name_en": "swiss chard",
+    "name_uk": "мангольд (листовий буряк)",
+    "effect": "decrease",
+    "vitamin_k": "very high (≈ 830 µg/100 g)",
+    "advice_uk": "Надзвичайно багато K — важлива стабільність.",
+    "advice_en": "Extremely high vitamin K — keep intake stable.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Swiss_Chard_2.jpg",
+    "synonyms_en": ["chard", "swiss chard"],
+    "synonyms_uk": ["мангольд", "листовий буряк", "чард"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 19, "Protein": 1.8, "Fat": 0.2, "Carbs": 3.7, "VitaminK": 830 }
   },
-  "грейпфрут": {
-    "effect": "може підсилювати дію варфарину",
-    "vitamin_k": "низький",
-    "advice": "Може взаємодіяти з метаболізмом; краще обмежити."
+  "parsley": {
+    "name_en": "parsley",
+    "name_uk": "петрушка",
+    "effect": "decrease",
+    "vitamin_k": "very high (≈ 1640 µg/100 g)",
+    "advice_uk": "Навіть невеликі пучки дають багато K — стежте за стабільністю.",
+    "advice_en": "Even small bunches add lots of K — keep consistent.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Parsley.jpg",
+    "synonyms_en": ["parsley"],
+    "synonyms_uk": ["петрушка"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 36, "Protein": 3.0, "Fat": 0.8, "Carbs": 6.3, "VitaminK": 1640 }
   },
-  "алкоголь": {
-    "effect": "може підсилювати або зменшувати дію варфарину",
+  "dill": {
+    "name_en": "dill",
+    "name_uk": "кріп",
+    "effect": "decrease",
+    "vitamin_k": "high",
+    "advice_uk": "Не збільшуйте різко кількість зелені.",
+    "advice_en": "Avoid sudden increase in herb amount.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Anethum_graveolens1.jpg",
+    "synonyms_en": ["dill"],
+    "synonyms_uk": ["кріп"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 43, "Protein": 3.5, "Fat": 1.1, "Carbs": 7.0, "VitaminK": 154 }
+  },
+  "cilantro": {
+    "name_en": "cilantro (coriander leaves)",
+    "name_uk": "кінза (листя коріандру)",
+    "effect": "decrease",
+    "vitamin_k": "moderate/high",
+    "advice_uk": "Стабільні порції — стабільний INR.",
+    "advice_en": "Keep portions steady for stable INR.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Coriandrum_sativum1.jpg",
+    "synonyms_en": ["cilantro", "coriander leaves"],
+    "synonyms_uk": ["кінза", "листя коріандру"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 23, "Protein": 2.1, "Fat": 0.5, "Carbs": 3.7, "VitaminK": 310 }
+  },
+  "lettuce": {
+    "name_en": "lettuce (romaine)",
+    "name_uk": "салат (ромен/латук)",
+    "effect": "decrease",
+    "vitamin_k": "moderate/high (≈ 102 µg/100 g romaine)",
+    "advice_uk": "Салати ок, якщо без різких коливань у порціях.",
+    "advice_en": "Salads are fine if portions are consistent.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Lettuce_Mini_Romaine.jpg",
+    "synonyms_en": ["romaine", "cos lettuce"],
+    "synonyms_uk": ["ромен", "латук", "салат"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 17, "Protein": 1.2, "Fat": 0.3, "Carbs": 3.3, "VitaminK": 102 }
+  },
+  "sauerkraut": {
+    "name_en": "sauerkraut",
+    "name_uk": "капуста квашена",
+    "effect": "decrease",
+    "vitamin_k": "variable (cabbage-based)",
+    "advice_uk": "Вміст K залежить від рецепту — не робіть різких змін у раціоні.",
+    "advice_en": "Vitamin K varies by recipe — avoid sudden changes.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Sauerkraut.jpg",
+    "synonyms_en": ["sauerkraut"],
+    "synonyms_uk": ["квашена капуста", "капуста квашена"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 19, "Protein": 0.9, "Fat": 0.1, "Carbs": 4.3, "VitaminK": 13 }
+  },
+  "green onion": {
+    "name_en": "green onion",
+    "name_uk": "зелена цибуля",
+    "effect": "decrease",
+    "vitamin_k": "moderate",
+    "advice_uk": "Невеликі кількості зазвичай ок, головне — стабільність.",
+    "advice_en": "Small amounts usually fine; keep consistent.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Scallion_on_white.jpg",
+    "synonyms_en": ["scallion", "spring onion"],
+    "synonyms_uk": ["зелена цибуля", "перо цибулі"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 32, "Protein": 1.8, "Fat": 0.2, "Carbs": 7.3, "VitaminK": 207 }
+  },
+  "avocado": {
+    "name_en": "avocado",
+    "name_uk": "авокадо",
+    "effect": "decrease",
+    "vitamin_k": "moderate (≈ 21 µg/100 g)",
+    "advice_uk": "1–2 плоди/тиждень зазвичай ок; без стрибків.",
+    "advice_en": "1–2 fruits/week usually fine; avoid spikes.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Hass-Avocados.jpg",
+    "synonyms_en": ["avocado"],
+    "synonyms_uk": ["авокадо"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 160, "Protein": 2.0, "Fat": 14.7, "Carbs": 8.5, "VitaminK": 21 }
+  },
+  "kiwi": {
+    "name_en": "kiwi",
+    "name_uk": "ківі",
+    "effect": "decrease",
+    "vitamin_k": "moderate (≈ 40 µg/100 g)",
+    "advice_uk": "Стандартизуйте порції протягом тижня.",
+    "advice_en": "Standardize portions through the week.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Kiwi_aka.jpg",
+    "synonyms_en": ["kiwifruit"],
+    "synonyms_uk": ["ківі"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 61, "Protein": 1.1, "Fat": 0.5, "Carbs": 14.7, "VitaminK": 40 }
+  },
+  "liver": {
+    "name_en": "beef liver",
+    "name_uk": "печінка (яловича)",
+    "effect": "decrease",
+    "vitamin_k": "contains vitamin K (K2)",
+    "advice_uk": "Вживати помірно та стабільно.",
+    "advice_en": "Consume in moderate, consistent amounts.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Foie_de_boeuf.jpg",
+    "synonyms_en": ["liver"],
+    "synonyms_uk": ["печінка"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 135, "Protein": 20.4, "Fat": 3.6, "Carbs": 3.9, "VitaminK": 3 }
+  },
+  "green tea": {
+    "name_en": "green tea (brewed)",
+    "name_uk": "зелений чай (настій)",
+    "effect": "neutral",
+    "vitamin_k": "very low in infusion",
+    "advice_uk": "2–3 чашки/день зазвичай ок; уникайте концентрованих екстрактів.",
+    "advice_en": "2–3 cups/day usually fine; avoid concentrated extracts.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Green_tea_2.jpg",
+    "synonyms_en": ["green tea"],
+    "synonyms_uk": ["зелений чай"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 1, "Protein": 0.0, "Fat": 0.0, "Carbs": 0.0, "VitaminK": 0.0 }
+  },
+  "garlic": {
+    "name_en": "garlic",
+    "name_uk": "часник",
+    "effect": "increase",
+    "vitamin_k": "low",
+    "advice_uk": "Добавки/великі кількості можуть ↑ризик кровотеч; у харчових дозах — обережно.",
+    "advice_en": "Supplements/large amounts may ↑bleeding risk; be cautious.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Garlic_bulbs.jpg",
+    "synonyms_en": ["garlic"],
+    "synonyms_uk": ["часник"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 149, "Protein": 6.4, "Fat": 0.5, "Carbs": 33.1, "VitaminK": 2.3 }
+  },
+  "ginger": {
+    "name_en": "ginger",
+    "name_uk": "імбир",
+    "effect": "increase",
+    "vitamin_k": "low",
+    "advice_uk": "Великі дози/екстракти можуть підвищувати ризик кровотеч.",
+    "advice_en": "Large doses/extracts may increase bleeding risk.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ginger.JPG",
+    "synonyms_en": ["ginger"],
+    "synonyms_uk": ["імбир"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 80, "Protein": 1.8, "Fat": 0.8, "Carbs": 17.8, "VitaminK": 0.1 }
+  },
+  "turmeric": {
+    "name_en": "turmeric",
+    "name_uk": "куркума",
+    "effect": "increase",
+    "vitamin_k": "low",
+    "advice_uk": "Особливо у формі добавок/екстрактів — обережно.",
+    "advice_en": "Be cautious with supplements/extracts.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Turmeric_%28Curcuma_longa%29.jpg",
+    "synonyms_en": ["turmeric"],
+    "synonyms_uk": ["куркума"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 312, "Protein": 9.7, "Fat": 3.3, "Carbs": 67.1, "VitaminK": 13.4 }
+  },
+  "omega-3": {
+    "name_en": "omega-3 (fish oil)",
+    "name_uk": "омега-3 (рибʼячий жир)",
+    "effect": "increase",
     "vitamin_k": "—",
-    "advice": "Уникайте запоїв; обговоріть допустиму кількість з лікарем."
+    "advice_uk": "Високі дози добавок можуть ↑ризик кровотеч; узгодити з лікарем.",
+    "advice_en": "High-dose supplements may ↑bleeding risk; consult your doctor.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Fish_oil_capsules.jpg",
+    "synonyms_en": ["fish oil", "omega-3"],
+    "synonyms_uk": ["рибʼячий жир", "омега-3"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 902, "Protein": 0.0, "Fat": 100.0, "Carbs": 0.0, "VitaminK": 0.0 }
   },
-  "яблуко": {
-    "effect": "зазвичай нейтрально",
-    "vitamin_k": "низький",
-    "advice": "Без різких змін у кількості."
+  "cranberry": {
+    "name_en": "cranberry",
+    "name_uk": "журавлина",
+    "effect": "increase",
+    "vitamin_k": "low (≈ 5 µg/100 g)",
+    "advice_uk": "Соки/концентрати можуть підсилювати дію — обережно.",
+    "advice_en": "Juices/concentrates may increase effect — use cautiously.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Cranberries20101210.jpg",
+    "synonyms_en": ["cranberry"],
+    "synonyms_uk": ["журавлина"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 46, "Protein": 0.4, "Fat": 0.1, "Carbs": 12.2, "VitaminK": 5 }
   },
-  "морква": {
-    "effect": "зазвичай нейтрально",
-    "vitamin_k": "низький",
-    "advice": "Можна вживати стабільно."
+  "grapefruit": {
+    "name_en": "grapefruit",
+    "name_uk": "грейпфрут",
+    "effect": "increase",
+    "vitamin_k": "low",
+    "advice_uk": "Може взаємодіяти з метаболізмом — краще обмежити.",
+    "advice_en": "May affect metabolism — best to limit.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Grapefruit.jpg",
+    "synonyms_en": ["grapefruit"],
+    "synonyms_uk": ["грейпфрут"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 42, "Protein": 0.8, "Fat": 0.1, "Carbs": 10.7, "VitaminK": 0.0 }
   },
-
-  // ---- ДОДАНО ----
-  "петрушка": {
-    "effect": "зменшує дію варфарину",
-    "vitamin_k": "дуже високий",
-    "advice": "Навіть невеликі пучки дають багато K — стежте за стабільністю."
+  "apple": {
+    "name_en": "apple",
+    "name_uk": "яблуко",
+    "effect": "neutral",
+    "vitamin_k": "low (≈ 2 µg/100 g)",
+    "advice_uk": "Без різких змін у кількості.",
+    "advice_en": "Avoid sudden changes in amount.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg",
+    "synonyms_en": ["apple"],
+    "synonyms_uk": ["яблуко"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 52, "Protein": 0.3, "Fat": 0.2, "Carbs": 14.0, "VitaminK": 2.2 }
   },
-  "кріп": {
-    "effect": "може зменшувати дію варфарину",
-    "vitamin_k": "високий",
-    "advice": "Нормуйте обсяг зелені; не збільшуйте різко."
+  "carrot": {
+    "name_en": "carrot",
+    "name_uk": "морква",
+    "effect": "neutral",
+    "vitamin_k": "low (≈ 13 µg/100 g)",
+    "advice_uk": "Можна вживати стабільно.",
+    "advice_en": "Can be consumed steadily.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Carrot.jpg",
+    "synonyms_en": ["carrot"],
+    "synonyms_uk": ["морква"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 41, "Protein": 0.9, "Fat": 0.2, "Carbs": 9.6, "VitaminK": 13 }
   },
-  "кінза (коріандр, листя)": {
-    "effect": "може зменшувати дію варфарину",
-    "vitamin_k": "помірний/високий",
-    "advice": "Стабільні порції — стабільний INR."
+  "cucumber": {
+    "name_en": "cucumber",
+    "name_uk": "огірок",
+    "effect": "neutral",
+    "vitamin_k": "low/moderate (≈ 16 µg/100 g)",
+    "advice_uk": "Можна вживати без обмежень.",
+    "advice_en": "Safe to consume freely.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Fest_Opischmya_16.jpg/2560px-Fest_Opischmya_16.jpg",
+    "synonyms_en": ["cucumber"],
+    "synonyms_uk": ["огірок"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 16, "Protein": 0.7, "Fat": 0.1, "Carbs": 3.6, "VitaminK": 16 }
   },
-  "листя салату (ромен, латук)": {
-    "effect": "може зменшувати дію варфарину",
-    "vitamin_k": "помірний/високий (залежить від виду)",
-    "advice": "Салати — ок, якщо без різких коливань у порціях."
+  "tomato": {
+    "name_en": "tomato",
+    "name_uk": "помідор",
+    "effect": "neutral",
+    "vitamin_k": "low (≈ 7.9 µg/100 g)",
+    "advice_uk": "Зазвичай нейтрально — вживайте стабільно.",
+    "advice_en": "Usually neutral — consume steadily.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Tomato_je.jpg",
+    "synonyms_en": ["tomato"],
+    "synonyms_uk": ["помідор"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 18, "Protein": 0.9, "Fat": 0.2, "Carbs": 3.9, "VitaminK": 7.9 }
   },
-  "кейл (листова капуста)": {
-    "effect": "зменшує дію варфарину",
-    "vitamin_k": "дуже високий",
-    "advice": "Один із лідерів за K — уникайте «скачків» у споживанні."
+  "blueberry": {
+    "name_en": "blueberry",
+    "name_uk": "чорниця",
+    "effect": "neutral",
+    "vitamin_k": "moderate (≈ 19 µg/100 g)",
+    "advice_uk": "Зазвичай безпечно; помірні порції.",
+    "advice_en": "Generally safe; moderate portions.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Blueberries.jpg",
+    "synonyms_en": ["blueberry"],
+    "synonyms_uk": ["чорниця"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 57, "Protein": 0.7, "Fat": 0.3, "Carbs": 14.5, "VitaminK": 19 }
   },
-  "брюссельська капуста": {
-    "effect": "зменшує дію варфарину",
-    "vitamin_k": "високий",
-    "advice": "Слідкуйте за кількістю страв із неї протягом тижня."
+  "mango": {
+    "name_en": "mango",
+    "name_uk": "манго",
+    "effect": "neutral",
+    "vitamin_k": "low (≈ 4.2 µg/100 g)",
+    "advice_uk": "Зазвичай нейтрально — уникайте надлишку.",
+    "advice_en": "Usually neutral — avoid excess.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Hapus_Mango.jpg",
+    "synonyms_en": ["mango"],
+    "synonyms_uk": ["манго"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 60, "Protein": 0.8, "Fat": 0.4, "Carbs": 15.0, "VitaminK": 4.2 }
   },
-  "мангольд (швейцарський буряк, чард)": {
-    "effect": "зменшує дію варфарину",
-    "vitamin_k": "дуже високий",
-    "advice": "Тримайте постійну частоту споживання."
+  "cabbage": {
+    "name_en": "cabbage",
+    "name_uk": "капуста",
+    "effect": "decrease",
+    "vitamin_k": "high (≈ 76 µg/100 g, green)",
+    "advice_uk": "Багато K — вживайте стабільно.",
+    "advice_en": "High K — keep intake consistent.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Cabbage_and_cross_section.jpg",
+    "synonyms_en": ["cabbage"],
+    "synonyms_uk": ["капуста білоголова"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 25, "Protein": 1.3, "Fat": 0.1, "Carbs": 5.8, "VitaminK": 76 }
   },
-  "авокадо": {
-    "effect": "може зменшувати дію варфарину",
-    "vitamin_k": "помірний",
-    "advice": "1–2 плоди/тиждень зазвичай ок; головне — без стрибків."
+  "onion": {
+    "name_en": "onion",
+    "name_uk": "цибуля ріпчаста",
+    "effect": "neutral",
+    "vitamin_k": "low",
+    "advice_uk": "Містить мало вітаміну K, можна вживати без обмежень.",
+    "advice_en": "Low in vitamin K, safe to consume without restriction.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Onion_on_White.JPG",
+    "synonyms_en": ["onion", "bulb onion"],
+    "synonyms_uk": ["цибуля", "цибуля ріпчаста"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 40, "Protein": 1.1, "Fat": 0.1, "Carbs": 9.3, "VitaminK": 0.4 }
   },
-  "ківі": {
-    "effect": "може зменшувати дію варфарину",
-    "vitamin_k": "помірний",
-    "advice": "Стандартизувати порції протягом тижня."
+  "beetroot": {
+    "name_en": "beetroot",
+    "name_uk": "буряк",
+    "effect": "neutral",
+    "vitamin_k": "moderate",
+    "advice_uk": "Містить трохи вітаміну K, зазвичай безпечно.",
+    "advice_en": "Contains some vitamin K, usually safe.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Beetroot_jm26647.jpg",
+    "synonyms_en": ["beetroot", "beet"],
+    "synonyms_uk": ["буряк", "столовий буряк"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 43, "Protein": 1.6, "Fat": 0.2, "Carbs": 10.0, "VitaminK": 0.2 }
   },
-  "печінка (яловича/куряча)": {
-    "effect": "може зменшувати дію варфарину",
-    "vitamin_k": "містить вітамін K (переважно K2)",
-    "advice": "Вживати помірно та стабільно."
+  "black tea": {
+    "name_en": "black tea (brewed)",
+    "name_uk": "чорний чай (настій)",
+    "effect": "neutral",
+    "vitamin_k": "very low in infusion",
+    "advice_uk": "2–3 чашки/день зазвичай безпечно.",
+    "advice_en": "2–3 cups/day usually safe.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Black_tea_brewed.jpg",
+    "synonyms_en": ["black tea"],
+    "synonyms_uk": ["чорний чай"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 1, "Protein": 0.0, "Fat": 0.0, "Carbs": 0.0, "VitaminK": 0.0 }
   },
-  "зелений чай (настій)": {
-    "effect": "зазвичай нейтрально; великі обсяги можуть зменшувати дію",
-    "vitamin_k": "у завареному чаї низький (у листі високий)",
-    "advice": "2–3 чашки/день зазвичай ок; уникайте концентрованих екстрактів."
+  "strawberry": {
+    "name_en": "strawberry",
+    "name_uk": "полуниця",
+    "effect": "neutral",
+    "vitamin_k": "low",
+    "advice_uk": "Містить мало вітаміну K, можна вживати.",
+    "advice_en": "Low in vitamin K, safe to consume.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/PerfectStrawberry.jpg",
+    "synonyms_en": ["strawberry"],
+    "synonyms_uk": ["полуниця", "суниця садова"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 32, "Protein": 0.7, "Fat": 0.3, "Carbs": 7.7, "VitaminK": 2.2 }
   },
-  "часник": {
-    "effect": "може підсилювати дію варфарину",
-    "vitamin_k": "низький",
-    "advice": "У добавках/великих кількостях ↑ризик кровотеч; харчові дози — обережно."
-  },
-  "імбир": {
-    "effect": "може підсилювати дію варфарину",
-    "vitamin_k": "низький",
-    "advice": "Великі дози/екстракти можуть підвищувати ризик кровотеч."
-  },
-  "куркума": {
-    "effect": "може підсилювати дію варфарину",
-    "vitamin_k": "низький",
-    "advice": "Особливо у вигляді добавок/лате/екстрактів."
-  },
-  "омега-3 (рибʼячий жир)": {
-    "effect": "може підсилювати дію варфарину",
-    "vitamin_k": "—",
-    "advice": "Високі дози добавок ↑ризик кровотеч; узгодити з лікарем."
+  "savoy cabbage": {
+    "name_en": "savoy cabbage",
+    "name_uk": "капуста савойська",
+    "effect": "caution",
+    "vitamin_k": "high",
+    "advice_uk": "Високий вміст вітаміну K — обмежуйте вживання.",
+    "advice_en": "High in vitamin K — limit intake.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Savoy_cabbage_closeup.jpg",
+    "synonyms_en": ["savoy cabbage"],
+    "synonyms_uk": ["капуста савойська"],
+    "sources": ["Wikipedia"],
+    "nutrition": { "Kcal": 28, "Protein": 2.0, "Fat": 0.1, "Carbs": 6.0, "VitaminK": 68.8 }
   }
 }

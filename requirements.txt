@@ -1,0 +1,4 @@
+python-telegram-bot==21.6
+aiohttp==3.10.5
+python-dotenv==1.0.1
+beautifulsoup4==4.12.3

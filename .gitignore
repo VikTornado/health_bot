@@ -1,0 +1,12 @@
+# venv
+.venv/
+venv/
+
+# env/секрети
+.env
+*.env
+
+# кеш/сміття
+__pycache__/
+*.py[cod]
+.DS_Store
