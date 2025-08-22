@@ -1,12 +1,41 @@
-# venv
-.venv/
-venv/
-
-# env/секрети
-.env
-*.env
-
-# кеш/сміття
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+*.env
+*.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# dotenv environment variables file
+.env
+
+# PyCharm / VSCode settings
+.idea/
+.vscode/
+
+# MacOS files
 .DS_Store
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
